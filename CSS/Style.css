@@ -1,0 +1,44 @@
+.scroolbar {
+	overflow: scroll;
+	height: 100px;
+	width: 100%;	
+}
+.index_responsive{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+	
+}
+
+.btn_all_button{
+	background-color: #CCC;
+	color: #000;
+	border: 2px solid #FFF;
+	border-radius: 12px;
+	font-size: 16px;
+	padding: 5px 20px;
+}
+
+.btn_all_button:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.heading{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 30px;
+	color: #999;	
+	
+}
+.table_database{
+	width: 100%;
+    border-collapse: collapse;
+	
+}
+.table_header{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	color: #000;
+	background-color: #CCC;    
+}

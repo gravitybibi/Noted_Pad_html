@@ -1,0 +1,50 @@
+<html>
+<head>
+<link rel="stylesheet" href="CSS/Style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Notedpad_html</title>
+</head>
+
+<body onLoad="doShowAll()">
+
+<p1 id="display2" hidden></p1>
+  <br>
+  <div id=form1 align="center"><p1 class="heading">Welcome To Notepad Browser</p1>
+  <br>
+  <br>
+
+ <form id="myForm" action="" method="" >
+ <input type="button" id="btn_save" class="btn_all_button" value="Save To Notepad" onClick="Save_To_Notepad()"/>
+      
+  <br>
+  <br>
+  
+    
+  <input name="txt_notepad_title" id="txt_notepad_title" type="text" class="index_responsive" placeholder="Notepad Title"> 
+  <br>
+    
+  <textarea name="txt_notepad_textarea" id="txt_area" rows="15" class="index_responsive" placeholder="What's On Your Mind?"></textarea>
+  <br>
+  <br>
+    
+  <table width="60%" border="0">
+  <tr>
+      
+  <td scope="col" align="center"><input name="btn_save" type="reset" class="btn_all_button" value="Clear"> &nbsp;<input name="btn_save" id="save_database" onClick="FunctionSave()" type="button" class="btn_all_button" value="Save">&nbsp;<input type='button' class="btn_all_button" id='btn_views' value='Display' onclick='FunctionDisplay()' />&nbsp;<input type='button' id='btn_update' value='Update' class="btn_all_button" onClick='FunctionUpdate()'/>&nbsp;<input type='button' id='btn_remove' value='Delete' class="btn_all_button" onClick='FunctionDelete()'/>&nbsp;<input type='button' id='btn_table_clear' value='Clear Table' class="btn_all_button" onClick='FunctionClear_Table()'/></tr>
+  </tr>
+  </table>
+  </form>
+  </div>
+  
+<div id="divscrool" class="scroolbar">
+
+<table id="list" align="center" class="table_database"></table>
+
+
+
+</div>
+</div>
+
+<script src="Dom Js/JS.js"></script>
+</body>
+</html>
